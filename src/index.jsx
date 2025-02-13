@@ -3,7 +3,9 @@ import projectImage2 from "./assets/project2.jpeg";
 import projectImage3 from "./assets/project3.jpeg";
 import projectImage4 from "./assets/project4.jpeg";
 import projectImage5 from "./assets/project5.jpeg";
-import projectImage6 from "./assets/project6.jpeg";
+import projectImage6 from "./assets/project6.jpeg"
+// import { FaLinkedin, FaFacebook, FaGithub, FaInstagram, FaTwitter,FaDiscord } from "react-icons/fa";
+
 export const PROJECTS = [
     {
       id: 1,
@@ -74,7 +76,7 @@ export const PROJECTS = [
   import { TbBrandNextjs } from "react-icons/tb";
   import { SiMongodb } from "react-icons/si";
   import { DiRedis } from "react-icons/di";
-  import { FaNodeJs } from "react-icons/fa";
+  import { FaDiscord, FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaNodeJs ,FaTwitter} from "react-icons/fa";
   import { BiLogoPostgresql } from "react-icons/bi"; 
   export const SKILLS = [
     {
@@ -147,5 +149,32 @@ export const EDUCATION = [
       duration: "September 2008 - June 2012",
       description:
         "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
+    },
+  ];
+
+  export const SOCIAL_MEDIA_LINKS = [
+    {
+      href: "https://x.com/",
+      icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
+    },
+    {
+      href: "https://x.com/",
+      icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
+    },
+    {
+      href: "https://x.com/",
+      icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
+    },
+    {
+      href: "https://x.com/",
+      icon: <FaTwitter fontSize={25} className="hover:opacity-80" />,
+    },
+    {
+      href: "https://github.com/",
+      icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
+    },
+    {
+      href: "https://www.linkedin.com/",
+      icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
     },
   ];

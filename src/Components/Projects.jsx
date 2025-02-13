@@ -1,17 +1,18 @@
 
 import { MdArrowOutward } from "react-icons/md";
 import { PROJECTS } from "../index";
+import {motion} from "framer-motion"
 
 function Projects(){
  
     return(
         <>
         <section className="pt-20 " id="projects" >
-            <h2 className="mb-8 text-center text-3xl lg:text-4xl">Projects</h2>
+            <motion.h2 initial={{opacity:0,y:-20}} whileInView={{opacity:1,y:0}} transition={{duration:0.8}} className="mb-8 text-center text-3xl lg:text-4xl">Projects</motion.h2>
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
                 {
                    PROJECTS.map((project,index)=>{
-                    return <div key={index} className="group relative overflow-hidden rounded-3xl">
+                    return <motion.div key={index} className="group relative overflow-hidden rounded-3xl">
                         <img src={project.image}
                          alt={project.name} className="h-full w-full object-cover transition-transform-duration-500 group-hover:scale-110" />
                          <div className="absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-lg transition-opacity duration-500 group-hover:opacity-100">
@@ -24,7 +25,7 @@ function Projects(){
                                 </div>
                             </a>
                          </div>
-                    </div>
+                    </motion.div>
                    }) 
                 }
             </div>

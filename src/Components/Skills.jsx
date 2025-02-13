@@ -1,5 +1,4 @@
 import { SKILLS } from "../index"
-
 function Skill(){
     return(
         <>
@@ -20,7 +19,6 @@ function Skill(){
 
                 })
             }
-
             </div>
         </div>
         </>

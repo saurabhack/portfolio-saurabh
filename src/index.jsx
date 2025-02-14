@@ -58,9 +58,19 @@ export const PROJECTS = [
   ];
   
   export const BIO = [
-    "Carl Frank studied computer science at the University of Technology,from which he graduated in 2010. Following his education, he honed his craft and expertise over the course of 10 years at Tech Innovations Inc., where he immersed himself in the world of frontend development.",
-    "In 2021, driven by a shared vision for innovative web solutions and a passion for creating extraordinary user experiences Carl Frank co-founded WebArtistry alongside his creative partner, Jane Doe. Together, they set out to redefine frontend development, infusing their projects with creativity and cutting-edge technology.",
-    "As a multi-disciplinary frontend developer, Carl Frank brings a wealth of skills and expertise to his work. From his deep understanding of HTML, CSS, and JavaScript to his proficiency in modern frameworks like React and Vue.js, Carl Frank possesses a versatile skill set that allows him to craft stunning and unforgettable web experiences for his clients and audiences alike.",
+    "I'm a passionate Full-Stack Developer with expertise in React.js, Node.js, Express.js, and MongoDB. I love building scalable web applications, optimizing performance, and crafting clean, user-friendly interfaces.",
+    "What I Do",
+"✔ Frontend Development – React.js, Tailwind CSS, Next.js",
+"✔ Backend Development – Node.js, Express.js, MongoDB, Firebase",
+"✔ Full-Stack Projects – API development, authentication, and real-time applications",
+"✔ Problem-Solving – Data structures, algorithms, and system design",
+"🚀 Achievements & Projects",
+    "🏆 Winner of DevQuest Hackathon – Built an innovative web solution",
+    "✅ Completed 5+ real-world projects – Including a Blog App, Code Snippet Manager & API Testing Dashboard",
+    "📜 Certified in SQL (HackerRank) – Strong database management skills",
+    "📩 Let’s Connect!",
+    "If you’re looking for a developer to build something amazing or collaborate on a project, feel free to reach out!",
+    "📧 Email: saurabh.kamanesaurabh68@gmail.com"
   ];
 
   export const NAVIGATION_LINKS = [
@@ -162,7 +172,7 @@ export const EDUCATION = [
       icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
     },
     {
-      href: "https://x.com/",
+      href: "https://www.instagram.com/saurabh_kamane_007/",
       icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
     },
     {
@@ -170,11 +180,11 @@ export const EDUCATION = [
       icon: <FaTwitter fontSize={25} className="hover:opacity-80" />,
     },
     {
-      href: "https://github.com/",
+      href: "https://github.com/saurabhack",
       icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
     },
     {
-      href: "https://www.linkedin.com/",
+      href: "https://www.linkedin.com/in/saurabh-kamane-3ba95331b/",
       icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
     },
   ];
